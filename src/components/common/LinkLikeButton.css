@@ -1,0 +1,26 @@
+.link-like-button {
+  border: none;
+  padding: 0;
+  text-decoration: none;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: color 0.2s ease-in;
+  cursor: pointer;
+}
+
+.link-like-button:focus {
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 0 2px 2px rgba(93,189,69, 0.4);
+}
+
+.link-like-button:hover {
+  color: #288314;
+}
+
+.link-like-button:active {
+  color: #60c945;
+}

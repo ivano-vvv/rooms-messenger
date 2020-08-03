@@ -1,0 +1,33 @@
+.leave-room-button {
+  border: none;
+  border-top: 1px solid #941717;
+  color: #941717;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding-top: 9px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  overflow: visible;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.leave-room-button:focus {
+  outline: none;
+  background: #eecdcd;
+}
+
+.leave-room-button:hover {
+  background: #941717;
+  color: #fff;
+  font-family: "PT Root UI Bold";
+  font-weight: 700;
+}
+
+.leave-room-button:active {
+  background: #3b0a0a;
+}

@@ -1,0 +1,15 @@
+.panel-header {
+  width: 100%;
+}
+
+.panel-header__container {
+  padding: 0 16px;
+}
+
+.panel-header__heading {
+  margin: 7px 0;
+}
+
+.panel-header__divider {
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+.service-message {
+  background: #bababa;
+  border-radius: 12px;
+  padding: 3px 0;
+  /* flex-center-center */
+}
+
+.service-message__body {
+  text-align: center;
+  color: #fff;
+  max-width: 300px;
+}
+
+/* .user-message {
+    flex-start-start
+} */
+
+.user-message__author-icon {
+  margin-right: 16px;
+}
+
+.user-message_sent {
+  flex-direction: row-reverse;
+}
+
+.user-message_sent .user-message__author-icon {
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+.message {
+  margin-bottom: 20px;
+}
+
+.message:last-child {
+  margin-bottom: 0;
+}

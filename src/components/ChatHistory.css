@@ -1,0 +1,9 @@
+.chat-history {
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100% - 40px - 40px); /* 100% minus input height minus header*/
+}
+
+.chat-history__content-section {
+  margin: 24px 28px 36px 0;
+}

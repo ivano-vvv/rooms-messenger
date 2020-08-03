@@ -1,0 +1,17 @@
+.member-icon {
+  /* flex-center-center */
+  background-color: #408f2c;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.member-icon__letter {
+  display: inline-block;
+  font-family: "PT Root UI Bold";
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}

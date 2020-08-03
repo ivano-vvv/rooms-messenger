@@ -1,0 +1,30 @@
+.login-form__form-section {
+  margin-bottom: 20px;
+}
+
+.login-form__input-block {
+  margin-bottom: 12px;
+}
+
+.login-form__input-block_username {
+  margin-bottom: 36px;
+}
+
+.login-form__input-block:last-child {
+  margin-bottom: 0;
+}
+
+.login-form__label {
+  margin-bottom: 8px;
+}
+
+.login-form__divider {
+  width: 100%;
+  margin: 12px 0 6px;
+}
+
+.login-form__line {
+  height: 1px;
+  width: 80px;
+  background: #dadada;
+}

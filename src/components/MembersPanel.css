@@ -1,0 +1,28 @@
+.members-panel {
+  width: 208px;
+  overflow: hidden;
+}
+
+.members-panel__container {
+  padding: 0 12px;
+}
+
+.members-panel__header {
+  margin-bottom: 6px;
+}
+
+.members-panel__get-id-block {
+  margin-bottom: 20px;
+}
+
+.members-panel__get-link-button {
+  margin-right: 16px;
+}
+
+.members-panel__copied-indicator {
+  color: rgb(25, 92, 12);
+}
+
+.members-panel__list-block {
+  margin-bottom: 20px;
+}

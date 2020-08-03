@@ -1,0 +1,77 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  background: #5582e2;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  width: 100%;
+  height: 34px;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: all 100ms ease-in;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 6px 0 #5582e2;
+}
+
+.button:hover {
+  background: #7296e4;
+}
+
+.button:active {
+  background: #4b72c5;
+}
+
+.button_second {
+  background: #408f2c;
+  color: #fff;
+}
+
+.button_second:hover {
+  background: #53ad3d;
+}
+
+.button_second:active {
+  background: #296819;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 6px 0 #5dbd45;
+}
+
+.button_fetching {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.button_fetching:hover,
+.button_fetching:active {
+  background: #5582e2;
+}
+
+.button:disabled {
+  background: #838383;
+  cursor: default;
+}
+
+.button__loader {
+  animation: button-fetching 2s linear infinite forwards;
+}
+
+@keyframes button-fetching {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

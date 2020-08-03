@@ -1,0 +1,15 @@
+.chat-panel {
+  position: relative;
+  width: 440px;
+  height: 88vh;
+  overflow: hidden;
+}
+
+.chat-panel__container {
+  padding-left: 28px;
+}
+
+.chat-panel__input {
+  position: absolute;
+  bottom: 0;
+}

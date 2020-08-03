@@ -1,0 +1,10 @@
+.members-list-block__amount {
+  color: #646464;
+  margin-bottom: 5px;
+}
+
+.members-list-block__list {
+  min-height: 96px;
+  max-height: 324px;
+  overflow-y: scroll;
+}
